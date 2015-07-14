@@ -1,0 +1,5 @@
+SETENVVDEC
+SETENVLICENCE
+cad-cadence_0614_csh
+cd ~/TSMC_design_0421_2015
+virtuoso &
