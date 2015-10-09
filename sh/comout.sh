@@ -2,7 +2,7 @@
 a=0
 Files=("$@")
 
-# comment out [*]
+# run simulator "hspice filename > out"
 while [ $a -ne $# ]
 do
 	echo -e "%s/^.TEMP/*.TEMP/g\\nw" | ed - ${Files[$a]}
